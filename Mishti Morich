@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mishti Morich BD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .intro {
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      width: 280px;
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #e63946;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f1f1f1;
+      color: #666;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #e63946;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .btn:hover {
+      background-color: #d62828;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mishti Morich BD</h1>
+    <p>Sweet. Spicy. Homemade with Love.</p>
+  </header>
+
+  <section class="intro">
+    <h2>Welcome to Mishti Morich</h2>
+    <p>Experience the joy of home-cooked flavors, handcrafted pickles, rich desserts, and savory meals – all made with care and delivered right to your door.</p>
+    <a href="#contact" class="btn">Order Now</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>Homemade Pickles</h3>
+      <p>Spicy, tangy, and made with love – our pickles are perfect for every meal.</p>
+    </div>
+    <div class="card">
+      <h3>Delicious Desserts</h3>
+      <p>From classic sweets to innovative treats, every bite is a burst of joy.</p>
+    </div>
+    <div class="card">
+      <h3>Home Delivery</h3>
+      <p>Enjoy fresh homemade food delivered safely to your doorstep.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="intro">
+    <h2>Get in Touch</h2>
+    <p>Have a question or want to place a custom order? We’re here to help!</p>
+    <p>Email: <a href="mailto:mishtimorichbd@gmail.com">mishtimorichbd@gmail.com</a></p>
+    <p>Phone: <a href="tel:+880123456789">+880 123 456 789</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mishti Morich BD. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
